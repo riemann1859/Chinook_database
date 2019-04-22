@@ -1,5 +1,5 @@
 
-![alt text](C:/Users/YUNUS/Desktop/ChinookDatabaseSchema.png)
+![](C:/Users/YUNUS/Desktop/ChinookDatabaseSchema.png)
 
 There are 11 tables in the chinook sample database.
 
