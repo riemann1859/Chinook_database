@@ -1,4 +1,8 @@
+
+![alt text](C:/Users/YUNUS/Desktop/ChinookDatabaseSchema.png)
+
 There are 11 tables in the chinook sample database.
+
 
  employees table stores employees data such as employee id, last name, first name, etc. It also has a field named ReportsTo to specify who reports to whom.
  customers table stores customers data.
