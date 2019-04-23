@@ -6,6 +6,6 @@ on t."TrackId"=il."TrackId"
 join "Album" as al
 on al."AlbumId"=t."AlbumId"
 join "Artist" as ar
-on ar."ArtistId"=al."AlbumId"
+on ar."ArtistId"=al."ArtistId"
 group by 1
 order by 2 desc;
