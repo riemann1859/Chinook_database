@@ -1,11 +1,11 @@
---Number of tracks per artist having genre rock only.
+--Number of tracks per artist. Here consider artists whose all songs are completely rock
 
 select sub1."Name", sub1.number_of_tracks
 from (
       select sub."Name", sum(sub.rock_or_not),count(*) as number_of_tracks
       from (
-	           select  ar."Name",case when t."GenreId"=1 then 0
-                                       else 0
+	     select  ar."Name",case when t."GenreId"=1 then 0
+                                       else 1
 	                             end as rock_or_not
              from "Track" as t
              join "Album" as al
