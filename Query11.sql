@@ -2,8 +2,8 @@
 
 select sub."PlaylistId", sub."Name", sum(sub.latin_or_not)
 from (
-	     select p."PlaylistId", p."Name",  
-       case when g."Name"='Latin' then 1
+       select p."PlaylistId", p."Name",  
+             case when g."Name"='Latin' then 1
 	        else 0
 	     end as latin_or_not
        from "Playlist" as p
